@@ -1,0 +1,90 @@
+
+ body{
+           background-color: black;
+           background-repeat:no-repeat;
+           height:100%;
+           width:100%;
+           }
+         
+           
+.sidenav{
+         background-repeat:no-repeat;
+         display: none;
+         height:100%;
+         width:180px;
+         position: fixed;
+         z-index:1;
+         top:0;
+         left:0;
+         overflow-x: hidden; 
+         padding-top:30px;
+         background-color:#111;
+     }           
+ 
+ span{
+      color: white;
+     }
+     
+.sidenav a{
+          padding:20px 20px 8px 32px;
+          text-decoration:none;
+          font-size:20px;
+          color:gray;
+          display: block;
+        }
+        
+.sidenav a:hover {
+				  color: black;
+		       }
+		       
+.sidenav.closebtn{
+                  position: absolute;
+                  color: black;
+                  top:0;
+                  right:15px;
+                  font-size:40px;
+                  margin-left:30px;
+            }
+
+ 
+	  .para1{
+	  background-color: white;
+	  line-height:2.0em;
+	  padding:20px;
+	  border-style: solid;
+	  border-width: thick;
+	  border-color: grey;
+	  margin:15px;
+	  border-radius:10px;
+	  }
+	  
+.footer{
+				color:white;
+				font-size:15px;
+				left:0;
+				bottom:0;
+				position:fixed;
+				width:100%;
+				text-align: center;
+				background-color:gray;
+				text-weight:bolder;
+				}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
